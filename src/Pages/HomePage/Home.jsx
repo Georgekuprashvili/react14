@@ -7,7 +7,7 @@ function Home() {
 
   return (
     <div
-      className="bg-[#070724] w-[100%] h-[100vh] flex justify-center items-center"
+      className="bg-[#070724] w-[100%] h-full flex justify-center items-center"
       style={{ backgroundImage: `url(${bgimage})` }}
     >
       <h1 className="text-neutral-50 text-[80px]">

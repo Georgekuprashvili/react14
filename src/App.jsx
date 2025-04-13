@@ -7,9 +7,9 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <nav className=" w-[100%] bg-[#070724]  p-4 text-white flex justify-between  ">
+      <nav className=" w-[100%] bg-[#070724]  p-4 text-white flex justify-between   ">
         <h1 className="text-xl font-bold">The Planets</h1>
-        <div className="flex gap-[33px] w-[640px] ">
+        <div className="flex gap-[33px] w-[640px] flex-wrap ">
           {data.map((planet) => (
             <Link
               key={planet.name}
